@@ -1,0 +1,160 @@
+[
+  {
+    "columns": [
+      {
+        "columnName": "OBIS180",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS181",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS182",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS183",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS070",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS280",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS281",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS282",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS283",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS470",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS1270",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS7670",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS1570",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS3270",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS5170",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS5270",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS7170",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "OBIS7270",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Kennung",
+        "columnType": "STRING"
+      },
+      {
+        "columnName": "Zaehlernummer",
+        "columnType": "STRING"
+      },
+      {
+        "columnName": "Objekt",
+        "columnType": "STRING"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "expression": "OBIS180"
+          },
+          {
+            "expression": "OBIS181"
+          },
+          {
+            "expression": "OBIS182"
+          },
+          {
+            "expression": "OBIS183"
+          },
+          {
+            "expression": "OBIS070"
+          },
+          {
+            "expression": "OBIS280"
+          },
+          {
+            "expression": "OBIS281"
+          },
+          {
+            "expression": "OBIS282"
+          },
+          {
+            "expression": "OBIS283"
+          },
+          {
+            "expression": "OBIS470"
+          },
+          {
+            "expression": "OBIS1270"
+          },
+          {
+            "expression": "OBIS7670"
+          },
+          {
+            "expression": "OBIS1570"
+          },
+          {
+            "expression": "OBIS3270"
+          },
+          {
+            "expression": "OBIS5170"
+          },
+          {
+            "expression": "OBIS5270"
+          },
+          {
+            "expression": "OBIS7170"
+          },
+          {
+            "expression": "OBIS7270"
+          },
+          {
+            "expression": "Kennung"
+          },
+          {
+            "expression": "Zaehlernummer"
+          },
+          {
+            "expression": "PROVIDER_NAME"
+          }
+        ]
+      }
+    ],
+    "tableName": "Stromzaehler"
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Obis Kennzahlen für eDL40",
+    "providerPropertyType": "COMMAND",
+    "propertyFieldList": [
+      {
+        "fieldName": "OBIS180",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "Wh",
+        "index": "0100010800ff",
+        "note": "Zählerstand Bezug"
+      },
+      {
+        "fieldName": "OBIS181",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "Wh",
+        "index": "0100010801ff",
+        "note": "Zählerstand Bezug Tarif 1"
+      },
+      {
+        "fieldName": "OBIS182",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "Wh",
+        "index": "0100010802ff",
+        "note": "Zählerstand Bezug Tarif 2"
+      },
+      {
+        "fieldName": "OBIS183",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "Wh",
+        "index": "0100010803ff",
+        "note": "Zählerstand Bezug Tarif 3"
+      },
+      {
+        "fieldName": "OBIS070",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "W",
+        "index": "0100100700ff",
+        "note": "aktuelle Wirkleistung"
+      },
+      {
+        "fieldName": "OBIS280",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "Wh",
+        "index": "0100020800ff",
+        "note": "Zählerstand Lieferung"
+      },
+      {
+        "fieldName": "OBIS281",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "Wh",
+        "index": "0100020801ff",
+        "note": "Zählerstand Lieferung Tarif 1"
+      },
+      {
+        "fieldName": "OBIS282",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "Wh",
+        "index": "0100020802ff",
+        "note": "Zählerstand Lieferung Tarif 2"
+      },
+      {
+        "fieldName": "OBIS283",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "Wh",
+        "index": "0100020803ff",
+        "note": "Zählerstand Lieferung Tarif 3"
+      },
+      {
+        "fieldName": "OBIS470",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "W",
+        "note": "Wirkleistung L1",
+        "index": "0100240700ff"
+      },
+      {
+        "fieldName": "OBIS1270",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "W",
+        "note": "Wirkleistung L2",
+        "index": "0100380700ff"
+      },
+      {
+        "fieldName": "OBIS7670",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "W",
+        "note": "Wirkleistung L3",
+        "index": "01004c0700ff"
+      },
+      {
+        "fieldName": "OBIS1570",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "A",
+        "note": "Strom L1",
+        "index": "01001f0700ff"
+      },
+      {
+        "fieldName": "OBIS3270",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "V",
+        "note": "Spannung L1",
+        "index": "0100200700ff"
+      },
+      {
+        "fieldName": "OBIS5170",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "A",
+        "note": "Strom L2",
+        "index": "0100330700ff"
+      },
+      {
+        "fieldName": "OBIS5270",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "V",
+        "note": "Spannung L2",
+        "index": "0100340700ff"
+      },
+      {
+        "fieldName": "OBIS7170",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "A",
+        "note": "Strom L3",
+        "index": "0100470700ff"
+      },
+      {
+        "fieldName": "OBIS7270",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "unit": "V",
+        "note": "Spannung L3",
+        "index": "0100480700ff"
+      },
+      {
+        "fieldName": "Kennung",
+        "fieldType": "STRING",
+        "expression": "value",
+        "note": "Hersteller Kennung",
+        "index": "8181c78205ff"
+      },
+      {
+        "fieldName": "Zaehlernummer",
+        "fieldType": "STRING",
+        "expression": "value",
+        "note": "Zählernummer",
+        "index": "0100000009ff"
+      }
+    ]
+  }
+]
