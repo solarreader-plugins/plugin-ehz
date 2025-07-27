@@ -27,12 +27,10 @@ import de.schnippsche.solarreader.backend.connection.usb.UsbConnection;
 import de.schnippsche.solarreader.backend.connection.usb.UsbConnectionFactory;
 import de.schnippsche.solarreader.backend.field.PropertyField;
 import de.schnippsche.solarreader.backend.frame.ObisFrame;
-import de.schnippsche.solarreader.backend.protocol.KnownProtocol;
 import de.schnippsche.solarreader.backend.protocol.SmlProtocol;
 import de.schnippsche.solarreader.backend.provider.AbstractUsbProvider;
 import de.schnippsche.solarreader.backend.provider.CommandProviderProperty;
 import de.schnippsche.solarreader.backend.provider.ProviderProperty;
-import de.schnippsche.solarreader.backend.provider.SupportedInterface;
 import de.schnippsche.solarreader.backend.table.Table;
 import de.schnippsche.solarreader.backend.util.SerialPortConfigurationBuilder;
 import de.schnippsche.solarreader.backend.util.Setting;
@@ -44,7 +42,6 @@ import de.schnippsche.solarreader.frontend.ui.HtmlWidth;
 import de.schnippsche.solarreader.frontend.ui.UIInputElementBuilder;
 import de.schnippsche.solarreader.frontend.ui.UIList;
 import de.schnippsche.solarreader.frontend.ui.UITextElementBuilder;
-import de.schnippsche.solarreader.plugin.PluginMetadata;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
@@ -61,15 +58,6 @@ import org.tinylog.Logger;
  * measuring electricity consumption. This class allows the communication with EHZ devices,
  * receiving data over USB, making it suitable for integration with energy monitoring systems.
  */
-@PluginMetadata(
-    name = "Ehz",
-    version = "1.0.1",
-    author = "Stefan Töngi",
-    url = "https://github.com/solarreader-plugins/plugin-Ehz",
-    svgImage = "ehz.svg",
-    supportedInterfaces = {SupportedInterface.NAMED_USB, SupportedInterface.LISTED_USB},
-    usedProtocol = KnownProtocol.SML,
-    supports = "EHZ")
 public class Ehz extends AbstractUsbProvider {
   private static final String DEVICE_NUMBER_ID = "0100000009ff";
   private static final String[] OBIS_KEYS = {

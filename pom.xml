@@ -6,7 +6,7 @@
 
     <artifactId>Ehz</artifactId>
     <groupId>de.schnippsche.solarreader.plugins</groupId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <properties>
         <compiler.version>11</compiler.version>
@@ -76,9 +76,17 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Build-Version>${project.version}</Build-Version>
-                            <Build-Date>${maven.build.timestamp}</Build-Date>
+                            <Software-Version>${project.version}</Software-Version>
+                            <Software-Build-Date>${maven.build.timestamp}</Software-Build-Date>
                             <Main-Class>${mainClass}</Main-Class>
+                            <Software-Name>Ehz</Software-Name>
+                            <Software-Author>Stefan Töngi</Software-Author>
+                            <Software-Repository>https://github.com/solarreader-plugins/plugin-ehz
+                            </Software-Repository>
+                            <Software-Icon>ehz.svg</Software-Icon>
+                            <Software-Support-Info>Ehz with USB Adapter</Software-Support-Info>
+                            <Software-Interfaces>NAMED_USB, LISTED_USB</Software-Interfaces>
+                            <Software-Protocol>SML</Software-Protocol>
                         </manifestEntries>
                     </archive>
                 </configuration>
